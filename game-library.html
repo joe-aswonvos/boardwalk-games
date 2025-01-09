@@ -241,6 +241,56 @@
                 </div>
             </div>
         </section>
+        <!-- Game Reservation Form -->
+        <section id="reservation" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-9 col-xl-8 text-center">
+                    <h2 class="display-6">Reserve a Game</h2>
+                    <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
+                        adventure begin! Fill out your details and preferred game below, and we'll have it set aside for
+                        you when you arrive.</p>
+                </div>
+                <div class="col-12 col-md-9 col-xl-8">
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-8 mb-3">
+                                <label for="game" class="form-label">Game Selection</label>
+                                <select id="game" class="form-select" name="game" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="galaxy-pioneers">Galaxy Pioneers</option>
+                                    <option value="mystic-woods">Mystic Woods</option>
+                                    <option value="captains-gambit">Captain's Gambit</option>
+                                    <option value="critter-quest">Critter Quest</option>
+                                    <option value="settlers">Setters of Catan</option>
+                                    <option value="monopoly">Monopoly</option>
+                                    <option value="exploding-kittens">Exploding Kittens</option>
+                                    <option value="cluedo">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="date" class="form-label">Requested date</label>
+                                <input class="form-control" id="date" name="date" type="date" required></input>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-end">
+                            <button type="submit" class="btn custom-button-outline">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer / contact section -->
@@ -263,16 +313,16 @@
                         <i class="fa-solid fa-paper-plane"></i> info@boardwalk-games.com
                     </p>
                     <div class="social-links my-4">
-                        <a class="icon-link link-underline link-underline-opacity-0" href="http://www.instagram.com" target="_blank"
-                            aria-label="Visit our Instagram page (opens in new tab)" rel="noopener">
+                        <a class="icon-link link-underline link-underline-opacity-0" href="http://www.instagram.com"
+                            target="_blank" aria-label="Visit our Instagram page (opens in new tab)" rel="noopener">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a class="icon-link link-underline link-underline-opacity-0" href="http://www.facebook.com" target="_blank"
-                            aria-label="Visit our Facebook page (opens in new tab)" rel="noopener">
+                        <a class="icon-link link-underline link-underline-opacity-0" href="http://www.facebook.com"
+                            target="_blank" aria-label="Visit our Facebook page (opens in new tab)" rel="noopener">
                             <i class="fa-brands fa-square-facebook"></i>
                         </a>
-                        <a class="icon-link link-underline link-underline-opacity-0" href="http://www.x.com" target="_blank" aria-label="Visit our X feed (opens in new tab)"
-                            rel="noopener">
+                        <a class="icon-link link-underline link-underline-opacity-0" href="http://www.x.com"
+                            target="_blank" aria-label="Visit our X feed (opens in new tab)" rel="noopener">
                             <i class="fa-brands fa-x-twitter"></i>
                         </a>
                     </div>

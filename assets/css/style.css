@@ -109,6 +109,10 @@ h2 {
   border: none;
 }
 
+#reservation .display-6 {
+  margin-top: 1rem;
+}
+
 /* Footer / Contact */
 
 #contact {
