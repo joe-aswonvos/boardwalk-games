@@ -91,6 +91,12 @@ h2 {
   background-color: transparent;
 }
 
+.badge-color {
+  color: white !important;
+  background-color: var(--highlight-color) !important;
+  padding: 15px 15px;
+}
+
 /* Game Library */
 
 #newgames h5, #favgames h5 {
